@@ -9,9 +9,9 @@ export function DownloadSection() {
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
           Download CAM Covers now and turn your memories into music-inspired masterpieces!
         </p>
-        <Link href="https://play.google.com/store">
+        <Link href="https://play.google.com/store/apps/details?id=com.tiagodanin.camcovers.cam_covers">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/GetItOnGooglePlay_Badge_Web_color_English-vtd9UlhnNbCvjsjvVDto31JrGEdJc8.png"
+            src="/google-play-badge.png"
             alt="Get it on Google Play"
             width={200}
             height={60}

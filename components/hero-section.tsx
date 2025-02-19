@@ -16,9 +16,9 @@ export function HeroSection() {
             album covers inspired by real music players! Whether you want a grunge rock album, a dreamy lo-fi aesthetic,
             or a vibrant pop single, this app helps you create the perfect look.
           </p>
-          <Link href="https://play.google.com/store">
+          <Link href="https://play.google.com/store/apps/details?id=com.tiagodanin.camcovers.cam_covers">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/GetItOnGooglePlay_Badge_Web_color_English-vtd9UlhnNbCvjsjvVDto31JrGEdJc8.png"
+              src="/google-play-badge.png"
               alt="Get it on Google Play"
               width={200}
               height={60}

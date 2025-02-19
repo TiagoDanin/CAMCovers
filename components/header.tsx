@@ -16,9 +16,9 @@ export function Header() {
           <Link href="#reviews" className="hover:text-[#6750A4]">
             Reviews
           </Link>
-          <Link href="https://play.google.com/store">
+          <Link href="https://play.google.com/store/apps/details?id=com.tiagodanin.camcovers.cam_covers">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/GetItOnGooglePlay_Badge_Web_color_English-vtd9UlhnNbCvjsjvVDto31JrGEdJc8.png"
+              src="/google-play-badge.png"
               alt="Get it on Google Play"
               width={120}
               height={35}
