@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 267 34% 47%;
+    --primary-foreground: 210 40% 98%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Typography styles for legal pages */
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+
+  .prose a {
+    @apply text-[#6750A4];
+  }
+
+  .prose a:hover {
+    @apply underline;
+  }
+
+  .prose h1 {
+    @apply text-3xl font-bold mb-6 text-foreground;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-bold mt-8 mb-4 text-foreground;
+  }
+
+  .prose h3 {
+    @apply text-xl font-bold mt-6 mb-3 text-foreground;
+  }
+
+  .prose h4 {
+    @apply text-lg font-bold mt-4 mb-2 text-foreground;
+  }
+
+  .prose p {
+    @apply mb-4 text-gray-600;
+  }
+
+  .prose ul {
+    @apply list-disc pl-6 mb-4 text-gray-600;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+
+  .prose strong {
+    @apply font-semibold text-foreground;
+  }
+}
+
