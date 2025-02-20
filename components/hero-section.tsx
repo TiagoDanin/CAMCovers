@@ -29,7 +29,7 @@ export function HeroSection() {
         </div>
         <div className="relative">
           <Image
-            src="/placeholder.svg?height=600&width=300"
+            src="/screenshot/5.png"
             alt="CAM Covers App Interface"
             width={300}
             height={600}

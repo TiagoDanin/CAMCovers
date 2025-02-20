@@ -6,25 +6,25 @@ const features = [
   {
     title: "Album Cover Generator",
     description: "Transform your photos into authentic music covers with album-style layouts and designs.",
-    image: "/placeholder.svg?height=300&width=150",
+    image: "/screenshot/1.png",
     icon: Music4,
   },
   {
     title: "Music Player Effects",
     description: "Choose from classic, modern, and creative player styles to enhance your edits.",
-    image: "/placeholder.svg?height=300&width=150",
+    image: "/screenshot/2.png",
     icon: Palette,
   },
   {
     title: "Custom Text",
     description: "Add titles, artist names, and decorative elements to personalize your cover.",
-    image: "/placeholder.svg?height=300&width=150",
+    image: "/screenshot/3.png",
     icon: Type,
   },
   {
     title: "Quick & Easy Sharing",
     description: "Instantly post your custom album covers on Instagram, Whatsapp, Facebook, TikTok, and more!",
-    image: "/placeholder.svg?height=300&width=150",
+    image: "/screenshot/4.png",
     icon: Share2,
   },
 ]
@@ -43,15 +43,15 @@ export function FeaturesSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
-            <Card key={index} className="overflow-hidden bg-white shadow-lg">
+            <Card key={index} className="overflow-hidden bg-white border-0">
               <CardContent className="p-0">
-                <div className="h-40 overflow-hidden">
+                <div className="overflow-hidden">
                   <Image
-                    src={feature.image || "/placeholder.svg"}
+                    src={feature.image}
                     alt={feature.title}
-                    width={150}
+                    width={300}
                     height={300}
-                    className="w-full object-cover"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="p-6">
