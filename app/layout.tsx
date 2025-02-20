@@ -52,6 +52,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <meta name="apple-mobile-web-app-title" content="CAM Covers" />
       <body className={inter.className}>{children}</body>
     </html>
   )
