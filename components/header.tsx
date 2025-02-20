@@ -18,7 +18,7 @@ export function Header() {
           </Link>
           <Link href="https://play.google.com/store/apps/details?id=com.tiagodanin.camcovers.cam_covers">
             <Image
-              src="/google-play-badge.png"
+              src="/CAMCovers/google-play-badge.png"
               alt="Get it on Google Play"
               width={120}
               height={35}

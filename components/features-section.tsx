@@ -6,25 +6,25 @@ const features = [
   {
     title: "Album Cover Generator",
     description: "Transform your photos into authentic music covers with album-style layouts and designs.",
-    image: "/screenshot/1.png",
+    image: "/CAMCovers/screenshot/1.png",
     icon: Music4,
   },
   {
     title: "Music Player Effects",
     description: "Choose from classic, modern, and creative player styles to enhance your edits.",
-    image: "/screenshot/2.png",
+    image: "/CAMCovers/screenshot/2.png",
     icon: Palette,
   },
   {
     title: "Custom Text",
     description: "Add titles, artist names, and decorative elements to personalize your cover.",
-    image: "/screenshot/3.png",
+    image: "/CAMCovers/screenshot/3.png",
     icon: Type,
   },
   {
     title: "Quick & Easy Sharing",
     description: "Instantly post your custom album covers on Instagram, Whatsapp, Facebook, TikTok, and more!",
-    image: "/screenshot/4.png",
+    image: "/CAMCovers/screenshot/4.png",
     icon: Share2,
   },
 ]
