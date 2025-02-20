@@ -1,18 +1,21 @@
 [
   {
     "name": "Sarah",
+    "gender": "female",
     "source": "Google Play",
     "rating": 5,
     "comment": "CAM Covers has completely transformed how I present my photography work. The album cover styles are incredibly professional and the editing tools are intuitive. Highly recommended!"
   },
   {
     "name": "Mike",
+    "gender": "male",
     "source": "Google Play",
     "rating": 5,
     "comment": "As someone in the music industry, I'm impressed by the authenticity of the album cover designs. The app makes it easy to create professional-looking covers in minutes."
   },
   {
     "name": "Emily",
+    "gender": "female",
     "source": "Google Play",
     "rating": 5,
     "comment": "The creative possibilities with CAM Covers are endless! The variety of styles and the ability to customize every detail makes this app stand out from others."

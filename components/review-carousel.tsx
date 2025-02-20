@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 interface Review {
   name: string
+  gender: string
   source: string
   rating: number
   comment: string

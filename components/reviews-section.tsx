@@ -14,7 +14,7 @@ export function ReviewsSection() {
               <CardContent className="p-6">
                 <div className="flex items-center gap-4 mb-4">
                   <Image
-                    src="https://avatar.iran.liara.run/public"
+                    src={`https://avatar.iran.liara.run/public/${review.gender === "male" ? "boy" : "girl"}/?username=${encodeURIComponent(review.name)}`}
                     alt={review.name}
                     width={48}
                     height={48}
